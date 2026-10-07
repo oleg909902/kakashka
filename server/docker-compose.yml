@@ -1,0 +1,18 @@
+# Production: runs behind the shared Caddy in /opt/mcp (network mcp_default),
+# which serves https://kakashka.94-183-236-219.sslip.io -> kakashka:3000.
+#   cd /opt/kakashka/server && docker compose up -d --build
+name: kakashka
+
+services:
+  server:
+    build:
+      context: ..
+      dockerfile: server/Dockerfile
+    restart: unless-stopped
+    networks:
+      mcp_default:
+        aliases: [kakashka]
+
+networks:
+  mcp_default:
+    external: true

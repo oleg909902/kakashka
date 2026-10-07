@@ -18,8 +18,18 @@ cd server && npm install && npm run dev
 cd app && npm install && npx expo start
 ```
 
-Приложение само находит сервер на том же IP, что и Expo dev server (порт 3000).
-Другой адрес задаётся через `EXPO_PUBLIC_SERVER_URL`.
+По умолчанию приложение ходит на боевой сервер `https://kakashka.94-183-236-219.sslip.io`.
+Для локального сервера: `EXPO_PUBLIC_SERVER_URL=local npx expo start`
+(тот же IP, что у Expo dev server, порт 3000), либо любой адрес в `EXPO_PUBLIC_SERVER_URL`.
+
+## Деплой
+
+Сервер крутится в Docker на `94.183.236.219` за общим Caddy (`/opt/mcp`, сеть `mcp_default`):
+
+```bash
+ssh root@94.183.236.219
+cd /opt/kakashka && git pull && cd server && docker compose up -d --build
+```
 
 ## Сервер
 
