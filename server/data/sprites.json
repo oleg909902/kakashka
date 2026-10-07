@@ -1,0 +1,482 @@
+[
+  {
+    "id": 0,
+    "name": "rock",
+    "size": 90,
+    "solid": true,
+    "rect": {
+      "x": 5,
+      "y": 119,
+      "width": 189,
+      "height": 154
+    }
+  },
+  {
+    "id": 1,
+    "name": "flower-bush",
+    "size": 100,
+    "solid": true,
+    "rect": {
+      "x": 195,
+      "y": 120,
+      "width": 181,
+      "height": 158
+    }
+  },
+  {
+    "id": 2,
+    "name": "stump",
+    "size": 90,
+    "solid": true,
+    "rect": {
+      "x": 373,
+      "y": 136,
+      "width": 201,
+      "height": 142
+    }
+  },
+  {
+    "id": 3,
+    "name": "pine",
+    "size": 120,
+    "solid": true,
+    "rect": {
+      "x": 566,
+      "y": 46,
+      "width": 163,
+      "height": 228
+    }
+  },
+  {
+    "id": 4,
+    "name": "log",
+    "size": 120,
+    "solid": true,
+    "rect": {
+      "x": 725,
+      "y": 153,
+      "width": 209,
+      "height": 123
+    }
+  },
+  {
+    "id": 5,
+    "name": "mud",
+    "size": 110,
+    "solid": false,
+    "rect": {
+      "x": 932,
+      "y": 167,
+      "width": 187,
+      "height": 124
+    }
+  },
+  {
+    "id": 6,
+    "name": "slime",
+    "size": 100,
+    "solid": false,
+    "rect": {
+      "x": 1124,
+      "y": 159,
+      "width": 163,
+      "height": 130
+    }
+  },
+  {
+    "id": 7,
+    "name": "pond",
+    "size": 150,
+    "solid": false,
+    "rect": {
+      "x": 1291,
+      "y": 164,
+      "width": 191,
+      "height": 129
+    }
+  },
+  {
+    "id": 8,
+    "name": "grass",
+    "size": 70,
+    "solid": false,
+    "rect": {
+      "x": 1474,
+      "y": 92,
+      "width": 161,
+      "height": 183
+    }
+  },
+  {
+    "id": 9,
+    "name": "flowers",
+    "size": 60,
+    "solid": false,
+    "rect": {
+      "x": 1641,
+      "y": 136,
+      "width": 126,
+      "height": 158
+    }
+  },
+  {
+    "id": 10,
+    "name": "amanita",
+    "size": 70,
+    "solid": true,
+    "rect": {
+      "x": 8,
+      "y": 310,
+      "width": 161,
+      "height": 181
+    }
+  },
+  {
+    "id": 11,
+    "name": "rocks",
+    "size": 80,
+    "solid": true,
+    "rect": {
+      "x": 167,
+      "y": 322,
+      "width": 161,
+      "height": 170
+    }
+  },
+  {
+    "id": 12,
+    "name": "fence",
+    "size": 100,
+    "solid": true,
+    "rect": {
+      "x": 330,
+      "y": 328,
+      "width": 193,
+      "height": 164
+    }
+  },
+  {
+    "id": 13,
+    "name": "hydrant",
+    "size": 55,
+    "solid": true,
+    "rect": {
+      "x": 526,
+      "y": 295,
+      "width": 132,
+      "height": 205
+    }
+  },
+  {
+    "id": 14,
+    "name": "trash-can",
+    "size": 65,
+    "solid": true,
+    "rect": {
+      "x": 667,
+      "y": 299,
+      "width": 156,
+      "height": 199
+    }
+  },
+  {
+    "id": 15,
+    "name": "crate",
+    "size": 75,
+    "solid": true,
+    "rect": {
+      "x": 830,
+      "y": 315,
+      "width": 177,
+      "height": 182
+    }
+  },
+  {
+    "id": 16,
+    "name": "tires",
+    "size": 70,
+    "solid": true,
+    "rect": {
+      "x": 1010,
+      "y": 321,
+      "width": 178,
+      "height": 176
+    }
+  },
+  {
+    "id": 17,
+    "name": "pink-bush",
+    "size": 100,
+    "solid": true,
+    "rect": {
+      "x": 1197,
+      "y": 329,
+      "width": 210,
+      "height": 173
+    }
+  },
+  {
+    "id": 18,
+    "name": "bench",
+    "size": 120,
+    "solid": true,
+    "rect": {
+      "x": 1407,
+      "y": 337,
+      "width": 264,
+      "height": 169
+    }
+  },
+  {
+    "id": 19,
+    "name": "lamp",
+    "size": 45,
+    "solid": true,
+    "rect": {
+      "x": 1667,
+      "y": 286,
+      "width": 96,
+      "height": 220
+    }
+  },
+  {
+    "id": 20,
+    "name": "manhole",
+    "size": 70,
+    "solid": false,
+    "rect": {
+      "x": 5,
+      "y": 529,
+      "width": 192,
+      "height": 140
+    }
+  },
+  {
+    "id": 21,
+    "name": "cone",
+    "size": 50,
+    "solid": true,
+    "rect": {
+      "x": 192,
+      "y": 511,
+      "width": 133,
+      "height": 163
+    }
+  },
+  {
+    "id": 22,
+    "name": "barrier",
+    "size": 90,
+    "solid": true,
+    "rect": {
+      "x": 326,
+      "y": 511,
+      "width": 197,
+      "height": 166
+    }
+  },
+  {
+    "id": 23,
+    "name": "pipe",
+    "size": 90,
+    "solid": true,
+    "rect": {
+      "x": 525,
+      "y": 518,
+      "width": 195,
+      "height": 159
+    }
+  },
+  {
+    "id": 24,
+    "name": "box",
+    "size": 70,
+    "solid": true,
+    "rect": {
+      "x": 730,
+      "y": 518,
+      "width": 170,
+      "height": 154
+    }
+  },
+  {
+    "id": 25,
+    "name": "banana",
+    "size": 55,
+    "solid": false,
+    "rect": {
+      "x": 903,
+      "y": 513,
+      "width": 186,
+      "height": 156
+    }
+  },
+  {
+    "id": 26,
+    "name": "fish-bone",
+    "size": 65,
+    "solid": false,
+    "rect": {
+      "x": 1084,
+      "y": 549,
+      "width": 193,
+      "height": 100
+    }
+  },
+  {
+    "id": 27,
+    "name": "watermelon",
+    "size": 60,
+    "solid": false,
+    "rect": {
+      "x": 1284,
+      "y": 533,
+      "width": 174,
+      "height": 132
+    }
+  },
+  {
+    "id": 28,
+    "name": "apple-core",
+    "size": 40,
+    "solid": false,
+    "rect": {
+      "x": 1477,
+      "y": 508,
+      "width": 116,
+      "height": 161
+    }
+  },
+  {
+    "id": 29,
+    "name": "egg",
+    "size": 50,
+    "solid": false,
+    "rect": {
+      "x": 1613,
+      "y": 562,
+      "width": 160,
+      "height": 111
+    }
+  },
+  {
+    "id": 30,
+    "name": "potted-plant",
+    "size": 60,
+    "solid": true,
+    "rect": {
+      "x": 3,
+      "y": 672,
+      "width": 183,
+      "height": 192
+    }
+  },
+  {
+    "id": 31,
+    "name": "drain",
+    "size": 70,
+    "solid": false,
+    "rect": {
+      "x": 191,
+      "y": 709,
+      "width": 195,
+      "height": 147
+    }
+  },
+  {
+    "id": 32,
+    "name": "donut",
+    "size": 50,
+    "solid": false,
+    "rect": {
+      "x": 393,
+      "y": 709,
+      "width": 171,
+      "height": 141
+    }
+  },
+  {
+    "id": 33,
+    "name": "bone",
+    "size": 55,
+    "solid": false,
+    "rect": {
+      "x": 571,
+      "y": 712,
+      "width": 158,
+      "height": 145
+    }
+  },
+  {
+    "id": 34,
+    "name": "poop",
+    "size": 55,
+    "solid": false,
+    "rect": {
+      "x": 737,
+      "y": 705,
+      "width": 173,
+      "height": 156
+    }
+  },
+  {
+    "id": 35,
+    "name": "paper",
+    "size": 55,
+    "solid": false,
+    "rect": {
+      "x": 918,
+      "y": 711,
+      "width": 185,
+      "height": 149
+    }
+  },
+  {
+    "id": 36,
+    "name": "can",
+    "size": 50,
+    "solid": false,
+    "rect": {
+      "x": 1103,
+      "y": 706,
+      "width": 148,
+      "height": 157
+    }
+  },
+  {
+    "id": 37,
+    "name": "drumstick",
+    "size": 55,
+    "solid": false,
+    "rect": {
+      "x": 1243,
+      "y": 707,
+      "width": 191,
+      "height": 155
+    }
+  },
+  {
+    "id": 38,
+    "name": "palm",
+    "size": 120,
+    "solid": true,
+    "rect": {
+      "x": 1439,
+      "y": 669,
+      "width": 171,
+      "height": 203
+    }
+  },
+  {
+    "id": 39,
+    "name": "cinder-block",
+    "size": 70,
+    "solid": true,
+    "rect": {
+      "x": 1606,
+      "y": 726,
+      "width": 168,
+      "height": 142
+    }
+  }
+]
