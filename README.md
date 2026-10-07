@@ -2,6 +2,12 @@
 
 Мультиплеерная змейка-какашка на Expo + Skia с Node-сервером.
 
+<p align="center">
+  <img src="docs/menu.jpg" alt="Главное меню" width="300">
+  &nbsp;&nbsp;
+  <img src="docs/gameplay.jpg" alt="Игра" width="300">
+</p>
+
 ```
 app/     Expo-приложение (React Native, Skia, Reanimated)
 server/  игровой сервер (Express + Socket.IO): карта, еда, игроки
