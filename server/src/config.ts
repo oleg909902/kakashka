@@ -7,7 +7,7 @@ export const BORDER_STEP = 110; // px between trees on the map edge
 export const SOLID_OBSTACLES = 220;
 export const FLAT_OBSTACLES = 200;
 
-export const FOOD_COUNT = 150;
+export const FOOD_COUNT = 210; // 150 + 40%
 export const FOOD_KINDS = 12; // sprites in the app's food atlas
 export const FOOD_MARGIN = 60;
 
