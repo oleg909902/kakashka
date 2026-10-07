@@ -8,7 +8,7 @@ export const TRAIL_STEP = 12; // px between stains
 export const TRAIL_LIFE = 4000; // ms
 
 export const START_LENGTH_CM = 20; // shown in the HUD; SEGMENTS long = this many cm
-export const SHRINK_RATE = 1.2 / 1000; // segments per ms the snake loses all the time
+export const SHRINK_RATE = 0.6 / 1000; // segments per ms the snake loses all the time
 export const MIN_LENGTH_RATIO = 0; // game over below this share of the start length (0 = at 0 cm)
 export const DEATH_DURATION = 1300; // ms of the vanishing animation before game over
 
