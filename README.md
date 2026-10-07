@@ -26,10 +26,16 @@ cd app && npm install && npx expo start
 
 Сервер крутится в Docker на `94.183.236.219` за общим Caddy (`/opt/mcp`, сеть `mcp_default`):
 
+На хосте нет git, поэтому код заливается архивом текущего коммита:
+
 ```bash
-ssh root@94.183.236.219
-cd /opt/kakashka && git pull && cd server && docker compose up -d --build
+git archive --format=tar HEAD | ssh root@94.183.236.219 \
+  'tar -x -C /opt/kakashka && cd /opt/kakashka/server && docker compose up -d --build'
 ```
+
+Поддомен `kakashka.{$DOMAIN}` прописан в `/opt/mcp/Caddyfile`. Bind-mount Caddyfile в контейнере
+указывает на старую копию файла, поэтому после правок Caddyfile перезагружать так:
+`docker exec -i mcp-caddy-1 caddy reload --adapter caddyfile --config /dev/stdin < /opt/mcp/Caddyfile`
 
 ## Сервер
 
