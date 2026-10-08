@@ -18,7 +18,7 @@ export type Trail = {
 export type Food = { id: number; x: number; y: number; kind: number; born: number };
 
 /** A just-eaten food item, kept briefly for the gulp animation. */
-export type EatFx = { x: number; y: number; kind: number; at: number };
+export type EatFx = { id: number; x: number; y: number; kind: number; at: number };
 
 /** A flying toilet roll. owner is null for your own rolls (only those can hit). */
 export type Roll = { x: number; y: number; angle: number; born: number; owner: string | null };

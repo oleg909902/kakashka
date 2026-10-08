@@ -21,7 +21,7 @@ export function foodSystem(state: GameState) {
     if (dx * dx + dy * dy > reach * reach) continue;
 
     food.splice(i, 1);
-    state.eaten.push({ x: f.x, y: f.y, kind: f.kind, at: time });
+    state.eaten.push({ id: f.id, x: f.x, y: f.y, kind: f.kind, at: time });
     state.outbox.push({ type: 'eat', foodId: f.id });
     state.score += 1;
     state.length += GROWTH_PER_FOOD;

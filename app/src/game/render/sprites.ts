@@ -1,26 +1,41 @@
 import { Skia } from '@shopify/react-native-skia';
 
-const PAD = 6;
-
 function rect(x: number, y: number, w: number, h: number) {
-  return Skia.XYWHRect(x - PAD, y - PAD, w + PAD * 2, h + PAD * 2);
+  return Skia.XYWHRect(x, y, w, h);
 }
 
 /**
- * Sprite rects inside assets/food-atlas.png (2048×768, 6×2 grid, transparent background).
- * Bounds were measured from the alpha channel; index = Food.kind.
+ * Food sprites inside assets/food-atlas.png: 28 droppings repacked into a 7×4 grid of 128 px cells
+ * from assets/food-atlas-src.png (cut by their alpha channel). Which one a food item shows is
+ * picked from its id, see foodLayer.
  */
 export const FOOD_SPRITES = [
-  rect(50, 52, 302, 327), // corn
-  rect(381, 51, 325, 325), // broccoli
-  rect(713, 54, 293, 305), // chili pepper (left edge inset: broccoli ends at x=706)
-  rect(1051, 62, 287, 311), // onion
-  rect(1379, 72, 295, 302), // garlic
-  rect(1706, 46, 320, 337), // beet
-  rect(20, 406, 332, 298), // peas
-  rect(379, 401, 311, 312), // spinach
-  rect(710, 404, 287, 287), // mushroom
-  rect(1035, 403, 312, 303), // ginger
-  rect(1378, 411, 297, 288), // lemon
-  rect(1700, 400, 315, 313), // cabbage
+  rect(4, 5, 120, 117),
+  rect(138, 4, 108, 120),
+  rect(260, 20, 120, 87),
+  rect(388, 22, 120, 83),
+  rect(516, 23, 120, 82),
+  rect(644, 13, 120, 102),
+  rect(772, 8, 120, 112),
+  rect(4, 145, 120, 94),
+  rect(132, 144, 120, 95),
+  rect(260, 142, 120, 99),
+  rect(388, 150, 120, 84),
+  rect(516, 138, 120, 107),
+  rect(644, 143, 120, 98),
+  rect(772, 145, 120, 93),
+  rect(4, 273, 120, 93),
+  rect(132, 276, 120, 88),
+  rect(260, 272, 120, 95),
+  rect(388, 276, 120, 87),
+  rect(516, 281, 120, 77),
+  rect(644, 262, 120, 115),
+  rect(772, 270, 120, 100),
+  rect(4, 401, 120, 94),
+  rect(132, 389, 120, 117),
+  rect(260, 407, 120, 82),
+  rect(388, 409, 120, 78),
+  rect(516, 391, 120, 114),
+  rect(644, 394, 120, 107),
+  rect(772, 404, 120, 87),
 ];
